@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	wordList = fopen("enable1.txt", "r");
 	if(wordList == NULL)
 	{
-		printf("Error reading filed!")
+		printf("Error reading file!")
 		return 1;
 	}
 	
